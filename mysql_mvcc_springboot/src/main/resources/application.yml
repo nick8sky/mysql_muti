@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: mvcc-springboot
+
+  ###################### mysql ###########################
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://**:3306/temp?allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: **
+
+
+server:
+  port: 30004
